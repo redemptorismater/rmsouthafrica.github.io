@@ -1,0 +1,43 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AkzidenzGroteskBE-Regular
+FamilyName:Berthold Akzidenz Grotesk
+StyleName:Regular
+MenuName:Akzidenz Grotesk BE
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Berthold Akzidenz Grotesk
+WritingScript:Roman
+OutlineFileName:\AkzidenzGroteskBE-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:24224
+FileModTime:1382382343
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Impact
+FamilyName:Impact
+StyleName:Regular
+MenuName:Impact
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Impact
+WritingScript:Roman
+OutlineFileName:\Impact.ttf
+DataFormat:sfntData
+FileLength:138488
+FileModTime:1382382343
+%EndFont
+
