@@ -19,7 +19,7 @@ DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
 FileLength:24224
-FileModTime:1382382343
+FileModTime:1383045500
 %EndFont
 
 %BeginFont
@@ -38,6 +38,6 @@ WritingScript:Roman
 OutlineFileName:\Impact.ttf
 DataFormat:sfntData
 FileLength:138488
-FileModTime:1382382343
+FileModTime:1383045500
 %EndFont
 
