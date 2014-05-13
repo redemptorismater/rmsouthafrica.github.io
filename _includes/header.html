@@ -4,41 +4,63 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/foundation_css/normalize.css" />
     <link rel="stylesheet" href="/foundation_css/foundation.css" />
-    <link rel="stylesheet" href="/foundation_css/app.css"/>
     <link rel="stylesheet" href="/foundation_css/foundation.min.css"/>
     <script src="/js/vendor/custom.modernizr.js"></script>
-    <title>Redemptoris Mater Cape Town South Africa</title>    
+    <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <title>Redemptoris Mater Cape Town, South Africa</title>
   </head>
   <style type="text/css" media="all">
-    .green{
-      color:  #6CA524;
-    }
-    .bottom-padding {
-      padding-bottom: 2.5em;
+    
+    @font-face {
+      font-family: neocat;
+      src: url('/neocat/webfont/neocat-regular-2.0.eot'); /* IE9 Compat Modes */
+      src: url('/neocat/webfont/neocat-regular-2.0.eot?#iefix')                                                          format('embedded-opentype'), /* IE6-IE8 */
+        url('/neocat/webfont/neocat-regular-2.0.woff') format('woff'), /* Modern Browsers */
+        url('/neocat/neocat-regular-2.0.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('/neocat/webfont/neocat-regular-2.0.svg#svgFontName') format('svg'); /* Legacy iOS */
+
     }
 
-    h3 {
-      color: gray;
+    a{
+      font-family: neocat;
     }
+
+    a:link{
+      color:#007955;
+    }
+
+    a:visited{
+      color:#007955;
+    }
+
+    a:hover{
+      color:#007955;
+    }
+
+    .cover-photo{
+      height:285px;
+      background-position: center center;
+      background-image: url("/images/header.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #lora{
+      font-family: 'Lora', serif;
+    }
+
   </style>
   <body>
-    <div class="row">
-      <center><div class="large-12 columns">
-        <center><img src="/rmsouthafrica-images/rmsa-logo.gif" width="900" height="253"/></center>
-      </div></center>
-    </div> 
-    <div class "row">
-      <div class="large-12 columns">
-        <center><h3>COMING <span class="green">SOON</span></h3></center>
+    <div class="row cover-photo">
+      <div class="large-4 columns">
+        <center><h5 style="margin-top:80%;"><a href="/">rmsouthafrica</a></h5></center>
       </div>
-      <div>
-        <center><img src="/rmsouthafrica-images/tree-master.png" alt="" /></center>
+      <div class="large-4 columns">
+        <center><h5 style="margin-top:80%;"><a href="">what is a redemptoris mater?</a></h5></center>
       </div>
-    </div>
-    <div class="row bottom-padding">
-      <center><h3>DON'T LET YOUR <span class="green">LIFE</span> RUN OUT OF <span class="green">HOPE</span><br />A <span class="green">CHANCE</span> OF REBIRTH <span class="green">IS POSSIBLE</span></h3></center>
-      <center><a href="mailto:info@rmsouthafrica.org">info@rmsouthafrica.org</a></center>
+      <div class="large-4 columns">
+        <center><h5 style="margin-top:80%;"><a href="/contribute">how to help</a></h5></center>
+      </div>
     </div>
