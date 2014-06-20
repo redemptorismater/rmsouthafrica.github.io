@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <html>  
+  <html>
     <head>
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,6 +29,7 @@
 
 body{
   background-color: #FAFAFA;
+  padding-bottom: 70px;
 }
 
 .about h4,h5 {
@@ -64,7 +65,7 @@ li{
 }
 
 .photo{
-  height: 245px;
+  height: 250px;
   background:url('/images/actual-header.gif');
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,43 +78,48 @@ li{
 
 }
 
-.navbar.navbar-inverse{
-  -webkit-border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
-  border-radius: 0 !important;
-  margin: 0 auto;
+.give-me-space{
+  margin-bottom: 1%;
 }
 
+.make-borders{
+  border-bottom: solid thin #D3D3D3;
+  border-left: solid thin #D3D3D3;
+  border-right: solid thin #D3D3D3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
 
-/*.ff, .ff h5, .ff ul li{
-font-family: 'Source Sans Pro', sans-serif;
-}*/
+.make-right-border{
+  border-right: solid thin #D3D3D3;
+}
 
     </style>
     <body>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
+      <div class="jumbotron photo">
+      </div>
+      <div class="container give-me-space">
+        <div class="row make-borders" >
+          <div class="col-md-2 make-right-border">
             <h4><center><a href="/">HOME</a></center></h4>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 make-right-border">
             <h4><center><a href="#">WHAT ARE WE</a></center></h4>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 make-right-border">
             <h4><center><a href="#">HISTORY</a></center></h4>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 make-right-border">
             <h4><center><a href="#">GALLERY</a></center></h4>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 make-right-border">
             <h4><center><a href="/contribute">CONTRIBUTE</a></center></h4>
           </div>
           <div class="col-md-2">
             <h4><center><a href="#">NEWS</a></center></h4>
           </div>
         </div>
-      </div>
-      <div class="jumbotron photo">
       </div>
 
 	<div class="container about">
@@ -174,6 +180,11 @@ font-family: 'Source Sans Pro', sans-serif;
   </div>
 </div>
 
+  <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <div class="container foot">
+      <h5><center>REDEMPTORIS MATER CAPE TOWN SOUTH AFRICA</center></h5>
+    </div>
+  </nav>
   </body>
 </html>
 
