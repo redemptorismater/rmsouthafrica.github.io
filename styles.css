@@ -70,7 +70,10 @@ li {
   height: 10%;
   width: 100%;
   margin-bottom: 0.15%;
-  background-color: #F1F1F1;
+}
+
+.navbar-fixed-bottom{
+  display: none;
 }
 
 
@@ -84,8 +87,4 @@ li {
 }
 .make-right-border {
   border-right: solid thin #D3D3D3;
-}
-
-.col-md-2{
-  border-left: thin solid rgb(223, 218, 218);
 }
